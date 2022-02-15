@@ -848,6 +848,7 @@ ul{
 }
 .wine-bottles{
     max-width: 424px;
+    margin-top: 0.0625rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
