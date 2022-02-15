@@ -848,7 +848,6 @@ ul{
 }
 .wine-bottles{
     max-width: 424px;
-    margin-top: 0.0625rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -873,9 +872,6 @@ ul{
     transition: .5s ease-in-out;
 }
 .opacity-1, .opacity-2{
-    opacity: .5;
-}
-.wine-bottle:hover{
     opacity: .5;
 }
 .wine-bottle.opacity-1:hover{
@@ -1244,6 +1240,7 @@ ul{
 @media(max-width: 630px){
     .wine-bottles{
         max-width: 300px;
+        margin-top: 0.0625rem;
     }
     .wine-text-bottle{
         max-width: 300px;
