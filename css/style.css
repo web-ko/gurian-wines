@@ -871,6 +871,9 @@ ul{
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }
+.wine-bottle:hover{
+    opacity: .5;
+}
 .opacity-1, .opacity-2{
     opacity: .5;
 }
