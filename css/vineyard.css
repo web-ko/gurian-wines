@@ -1,0 +1,128 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.text-h {
+    font-family: "BodoniStd";
+    font-size: 1.5rem;
+    color: #252320;
+}
+.latable-text-1 h3{
+	font-family: "BodoniStd";
+	color: #958874;
+	font-size: 1.5rem;
+	letter-spacing: .1em;
+}
+.latable-text-1 p{
+	text-align: justify;
+}
+.pdf-button{
+    background-color: #e4e4e4;
+    color: #313233;
+    font-family: "Segoe UI Symbol";
+    font-size: .7rem;
+    font-weight: 600;
+}
+.pdf-button:hover, .pdf-button:focus, .pdf-button:active{
+    background-color: #e4e4e4!important;
+    color: #313233!important;
+    border-color: #e4e4e4!important;
+}
+.btn{
+	padding: 0.4rem 1rem;
+}
+@media(max-width: 1500px){
+	.latable-text-1{
+		width: 44vw;
+	}
+}
+@media(max-width: 1280px){
+	.latable-text-1{
+		width: 43vw;
+	    /*max-width: 550px;*/
+	    font-size: .9rem;
+	    padding: 0 8px;
+	    text-align: center;
+	    color: #757067;
+	}
+	.latable-text-1 h3{
+		margin-bottom: 1.5rem!important;
+	}
+}
+@media(max-width: 1138px){
+	.latable-text-1 h3{
+		margin-bottom: .5rem!important;
+	}
+	.latable-text-1{
+		font-size: 1.3vw;
+	}
+	.latable-text-1 h3{
+		font-size: 2.2vw;
+	}
+	.btn.mt-5{
+		font-size: 1vw;
+		margin-top: 1rem !important;
+	}
+}
+@media(max-width: 800px){
+	.tavi{
+		margin-bottom: .5rem!important;
+	}
+	.bolo{
+		margin-top: .5rem!important;
+	}
+}
+@media(max-width: 767px){
+	.latable-text-1{
+		width: auto;
+	    max-width: 660px;
+	    font-size: .9rem;
+	    padding: 71px 27px;
+	    text-align: center;
+	    color: #757067;
+	}
+	.latable-text-1 h3 {
+	    font-size: 1.5rem;
+	    letter-spacing: .1em;
+	    margin-bottom: 2rem!important;
+	}
+	.tavi{
+		margin-bottom: 1rem!important;
+	}
+	.bolo{
+		margin-top: 1rem!important;
+	}
+	.vineyard{
+		-webkit-transform: translateY(1rem);
+		    -ms-transform: translateY(1rem);
+		        transform: translateY(1rem);
+		color: #252320!important;
+	}
+	.pdf-button{
+	    background-color: #e4e4e4;
+	    color: #313233;
+	    font-family: "Segoe UI Symbol";
+	    font-size: .7rem!important;
+	    font-weight: 600;
+	}
+	.btn.mt-5{
+		font-size: 1vw;
+		margin-top: 3rem !important;
+	}
+	.text{
+		display: none;
+	}
+	.latable-div{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
+@media(min-width: 768px){
+	.texthidefrom767{
+		display: none;
+	}
+}

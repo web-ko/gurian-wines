@@ -1,0 +1,997 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.bgImg{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out 0s;
+    -o-transition: opacity 1s ease-in-out 0s;
+    transition: opacity 1s ease-in-out 0s;
+}
+.bgImgShow{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out 0s;
+    -o-transition: opacity 1s ease-in-out 0s;
+    transition: opacity 1s ease-in-out 0s;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+}
+.line{
+    background-color: #313233;
+}
+.lang-switch-ourwines {
+    pointer-events: all;
+    color: #313233!important;
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+    -webkit-transition: .35s;
+    -o-transition: .35s;
+    transition: .35s;
+}
+.dropdown-menu.show{
+    margin-left: 0.3125rem;
+}
+.landing-page{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.logo-link{
+    position: relative;
+}
+.landing-page-logo{
+    margin-top: -4%;
+}
+.logo{
+    width: 100%;
+    opacity: .5;
+}
+.cont-wines{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.col-wines{
+    z-index: 1;
+    margin-top: 11%;
+}
+.wine{
+    width: 100%;
+}
+.baseline{
+    position: absolute;
+    bottom: 11%;
+}/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.intro-legend{
+	text-align: center;
+	font-family: "BodoniStd";
+	font-size: 1.25rem;
+	color: #755509;
+}
+.presentation{
+	font-family: "Segoe UI Symbol";
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	max-width: 700px;
+}
+.home-slide{
+	display: none;
+	position: relative;
+    width: 400%;
+    background-color: #fff;
+    text-align: center;
+}
+.home-intro, .about-intro, .history-intro, .vineyards-intro, .galery-intro, .gvino-intro, .studio-intro, .contacti-intro{
+	background-color: rgba(0,0,0,0);
+}
+.about-slide{
+	display: none;
+	position: relative;
+	width: 400%;
+	margin-left: -100%;
+    background-color: #fff;
+    text-align: center;
+}
+.history-slide{
+	display: none;
+	position: relative;
+    width: 400%;
+    margin-left: -200%;
+    background-color: #fff;
+    text-align: center;
+}
+.vineyards-slide{
+	display: none;
+	position: relative;
+    width: 400%;
+    margin-left: -300%;
+    background-color: #fff;
+    text-align: center;
+}
+.galery-slide{
+	display: none;
+	position: relative;
+    width: 400%;
+    background-color: #fff;
+    text-align: center;
+}
+.gvino-slide{
+	display: none;
+	position: relative;
+	width: 400%;
+	margin-left: -100%;
+    background-color: #fff;
+    text-align: center;
+}
+.studio-slide{
+	display: none;
+	position: relative;
+    width: 400%;
+    margin-left: -200%;
+    background-color: #fff;
+    text-align: center;
+}
+.contacti-slide{
+	display: none;
+	position: relative;
+    width: 400%;
+    margin-left: -300%;
+    background-color: #fff;
+    text-align: center;
+}
+.og-close{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.og-close::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    background: #888;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+.og-close::after{
+	content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    background: #888;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.og-close:hover::after, .og-close:hover::before{
+	background-color: #333;
+}
+.home-slide p, .about-slide p, .history-slide p, .vineyards-slide p, .galery-slide p, .gvino-slide p, .studio-slide p, .contacti-slide p{
+	font-family: "Segoe UI Symbol";
+	margin-bottom: 0;
+	margin-top: 2.5rem!important;
+	color: #757067;
+    font-size: 0.875rem;
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.home-slide h3, .about-slide h3, .history-slide h3, .vineyards-slide h3, .galery-slide h3, .gvino-slide h3, .studio-slide h3, .contacti-slide h3{
+	font-family: "Segoe UI Symbol";
+	font-size: 0.8125rem;
+    color: #757067;
+    margin-top: -1.375rem;
+}
+.home-slide h4, .about-slide h4, .history-slide h4, .vineyards-slide h4, .galery-slide h4, .gvino-slide h4, .studio-slide h4, .contacti-slide h4{
+	font-family: "BodoniStd";
+	font-size: 1.375rem;
+    color: #927850;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
+.padds{
+	padding: 3.125rem;
+}
+@media(max-width: 992px){
+	.home-slide, .galery-slide{
+	    width: 200%;
+	}
+	.about-slide, .gvino-slide{
+	    width: 200%;
+	    margin-left: -100%;
+	}
+	.history-slide, .studio-slide{
+	    width: 200%;
+	    margin-left: 0;
+	}
+	.vineyards-slide, .contacti-slide{
+	    width: 200%;
+	    margin-left: -100%;
+	}
+}
+@media(max-width: 767px){
+	.home-slide, .about-slide, .galery-slide, .gvino-slide{
+	    width: 200%;
+	}
+	.history-slide, .studio-slide{
+	    width: 200%;
+	    margin-left: 0;
+	}
+	.vineyards-slide, .contacti-slide{
+		width: 200%;
+		margin-left: -100%;
+	}
+}
+@media(max-width: 575px){
+	.home-slide, .history-slide, .galery-slide, .studio-slide{
+	    width: 100%;
+	}
+	.about-slide, .gvino-slide{
+		width: 100%;
+		margin-left: 0;
+	}
+	.vineyards-slide, .contacti-slide{
+	    width: 100%;
+	    margin-left: 0;
+	}
+}
+.order-last{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.opensearch-div{
+	z-index: 1111;
+}
+.opensearch::before{
+	content: "\f002";
+	font-family: "Font Awesome Free";
+	position: absolute;
+	color: #fff;
+	top: 0.9375rem;
+    right: 65px;
+    font-size: 1.125rem;
+}
+.opensearch.active-1::before{
+	position: absolute;
+    content: "\f00d";
+    color: #fff;
+    top: 15px;
+    right: 65px;
+    font-size: 1.125rem;
+}
+.close-1{
+	z-index: 0;
+}
+.overlay{
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #2e2e2d;
+	opacity: 0;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.overlay.show{
+	pointer-events: auto;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(45,45,45,.9);
+	z-index: 111;
+	opacity: 1;
+}
+.overlay-col{
+    top: 44%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.overlay.show .closebtn{
+	color: #fff;
+}
+.overlay-content input{
+	border-radius: 0;
+	border: none;
+	font-size: 3.125rem;
+}
+.overlay-content input:focus{
+	border-color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+}
+.form-control::-webkit-input-placeholder{
+	opacity: .5;
+}
+.form-control::-moz-placeholder{
+	opacity: .5;
+}
+.form-control:-ms-input-placeholder{
+	opacity: .5;
+}
+.form-control::-ms-input-placeholder{
+	opacity: .5;
+}
+.form-control::placeholder{
+	opacity: .5;
+}
+
+/* visiting */
+.intro-visit{
+	text-align: center;
+	font-family: "BodoniStd";
+	font-size: 1.25rem;
+	color: #755509;
+	letter-spacing: .1em;
+}
+.presentation-v{
+	font-family: "Segoe UI Symbol";
+	font-size: 1rem;
+	color: #757067;
+	text-align: center;
+	max-width: 700px;
+}
+.full-thumbnail-img img{
+	width: 100%;
+}
+.visitboxCol{
+	background-color: #fff;
+}
+.visit-info p, .visit-info a{
+	font-family: "Segoe UI Symbol";
+	font-size: 1rem;
+	color: #757067;
+	text-decoration: none;
+}
+.visit-list-info ul li span{
+	font-family: "Segoe UI Symbol";
+    color: #757067;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.spLang{
+	padding-right: 1.875rem;
+}
+.spGroup{
+	padding-right: 3.3125rem;
+}
+.spPrice{
+	padding-right: 3.9375rem;
+}
+.visit-list-info ul li{
+    border-bottom: 1px solid #927850;
+    padding: 1.25rem 3.125rem;
+    font-family: "Segoe UI Symbol";
+    font-size: .9rem;
+    color: #757067;
+}
+.visit-list-info{
+    border-top: 1px solid #927850;
+    margin: 0 29px;
+}
+.visitboxCol h2{
+	font-family: "BodoniStd";
+    text-transform: uppercase;
+    color: #927850;
+    font-size: 1.375rem;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: .1em;
+    margin: 0 0 35px 0;
+}
+.bookTour, .bookTour-1, .bookTour-2{
+	background-color: #e4e4e4;
+    color: #423d35;
+    font-family: "BodoniStd";
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.3rem 1.9rem;
+}
+.bookTour:hover, .bookTour:active, .bookTour:focus, .bookTour-1:hover, .bookTour-1:active, .bookTour-1:focus, .bookTour-2:hover, .bookTour-2:active, .bookTour-2:focus{
+	background-color: #e4e4e4!important;
+    color: #423d35!important;
+    border-color: #e4e4e4!important;
+}
+.visitbox-0, .visitbox-1, .visitbox-2{
+	display: none;
+}
+.visit-info-hide p{
+	padding: 0 3.125rem;
+    font-family: "Segoe UI Symbol";
+    font-size: .9rem;
+    color: #757067;
+}
+.visit-list-info-hide, .visit-list-info-hide-1{
+	border-top: 1px solid #927850;
+    margin: 0 1.8125rem;
+}
+.visit-list-info-hide ul li span, .visit-list-info-hide-1 ul li span{
+	text-align: left;
+	font-family: "Segoe UI Symbol";
+    color: #757067;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.visit-list-info-hide ul li, .visit-list-info-hide-1 ul li{
+	border-bottom: 1px solid #927850;
+	padding-left: 3.125rem;
+	padding-right: 3.125rem;
+    font-family: "Segoe UI Symbol";
+    font-size: .9rem;
+    color: #757067;
+}
+.info-hide-1{
+	padding-top: 1.25rem;
+}
+.info-hide-2{
+	padding-bottom: 1.25rem;
+}
+.info-hide-3{
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+.visit-list-info-hide ul li:nth-child(1){
+	border-bottom: none;
+}
+.visit-list-info-hide-1 ul li:nth-child(2){
+	border-bottom: none;
+}
+.spDur{
+	padding-right: 1.875rem;
+}
+.spPr{
+	padding-right: 3.3125rem;
+}
+.bookingform {
+    width: 70%;
+    margin: 2.5rem auto 0 auto;
+    font-family: "Segoe UI Symbol";
+    color: #757067;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.inleft{
+	margin-left: 1.875rem;
+}
+.inright{
+	margin-left: 0.9375rem;
+}
+.form-check-input:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.contact-civil-sel{
+	font-family: "Segoe UI Symbol";
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #3a3937;
+    font-weight: 600;
+}
+.contact-civil-sel-1{
+	font-family: "Segoe UI Symbol";
+    font-style: italic;
+    font-size: 0.8rem;
+    color: #8c816e!important;
+}
+.contact-civil{
+	font-family: "Segoe UI Symbol";
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.bookingform input{
+	font-family: "Segoe UI Symbol";
+    font-size: 0.8rem;
+    color: #3a3937;
+    font-weight: 600;
+}
+.inputBack{
+	border: none;
+    background-color: #efefef;
+}
+.inputBack option{
+	background-color: #fff;
+}
+.inputBack:focus{
+	background-color: #efefef;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.bookingform a{
+	color: #757067;
+}
+.paddLeft{
+	padding-left: 2rem;
+}
+.buttSend{
+	font-family: "BodoniStd";
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.3rem 1.9rem;
+    background-color: #927850;
+    color: #fff;
+}
+.buttSend:hover, .buttSend:focus{
+	background-color: #927850;
+    border-color: rgba(0,0,0,0);
+    color: #fff;
+}
+.buttSend:active{
+	background-color: #614e35!important;
+    border-color: #614e35!important;
+    color: #fff!important;
+}
+.invalid-feedback{
+	text-transform: initial;
+}
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus{
+    border-color: #dc3545;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.was-validated .form-control:valid:focus, .form-control.is-valid:focus{
+    border-color: #198754;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.was-validated .form-check-input:valid:focus, .form-check-input.is-valid:focus{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.was-validated .form-check-input:valid:checked, .form-check-input.is-valid:checked{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label{
+    color: #757067;
+}
+.was-validated .form-check-input:valid, .form-check-input.is-valid{
+    border-color: rgba(0, 0, 0, 0.25);
+}
+.was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.was-validated .form-check-input:invalid ~ .form-check-label, .was-validated .form-check-input:invalid ~ .form-check-label a, .form-check-input.is-invalid ~ .form-check-label{
+    color: #dc3545;
+}
+.was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.was-validated .form-control:invalid, .form-control.is-invalid{
+    background-image: none;
+}
+.was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"]{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+.was-validated .form-control:valid, .form-control.is-valid{
+    border-color: #198754;
+    padding-right: calc(1.5em + 0.75rem);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"], .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"]{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+.bookingform input:-webkit-autofill,
+.bookingform input:-webkit-autofill:hover, 
+.bookingform input:-webkit-autofill:focus, 
+.bookingform input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #efefef inset!important;
+    -webkit-text-fill-color: #3a3937!important;
+}
+@media(min-width: 1400px){
+	.visitboxCol{
+		max-width: 1000px;
+	}
+}
+@media(max-width: 1399px){
+	.visitboxCol{
+		max-width: 860px;
+	}
+}
+@media(max-width: 767px){
+	.visit-list-info ul li {
+	    padding: 1.25rem .6rem;
+	    font-size: .9rem;
+	    color: #757067;
+	}
+	.visit-list-info-hide ul li, .visit-list-info-hide-1 ul li{
+		padding-left: .6rem;
+    	padding-right: .6rem;
+	}
+}
+@media(max-width: 576px){
+	.visitboxCol{
+		width: 82%;
+	}
+	.visit-info p, .visit-info a{
+		padding: 0 2rem;
+	}
+}
+@media(max-width: 427px){
+	.inright {
+	    margin-left: 4.1rem;
+	}
+}
+/* end of visiting */
+
+/* contact */
+.visiterContact{
+    -webkit-box-shadow: inset 26px -79px 68px 18px rgb(165 165 165 / 42%);
+            box-shadow: inset 26px -79px 68px 18px rgb(165 165 165 / 42%);
+    background: #f3f3f3;
+}
+.intro-contact{
+	font-family: "Segoe UI Symbol";
+	font-size: 1.125rem;
+	color: #757067;
+	font-weight: 600;
+	letter-spacing: .1em;
+}
+.intro-contact-p{
+	font-family: "Segoe UI Symbol";
+	font-size: 1rem;
+	color: #757067;
+}
+.contactDiv a{
+	font-family: "Segoe UI Symbol";
+	color: #757067;
+	text-decoration: none;
+}
+.contact-visit{
+	font-family: "Segoe UI Symbol";
+	font-style: italic;
+	font-size: .9rem;
+	color: #958874;
+	font-weight: 600;
+	letter-spacing: .02em;
+}
+.fullscreenButton{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    padding: 4px 10px 7px 10px;
+    -webkit-box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+            box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+    cursor: pointer;
+}
+.fullscreenButtonCl{
+	position: absolute;
+	display: none;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+   	padding: 4px 10px 7px 10px;
+   	-webkit-box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+   	        box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+   	cursor: pointer;
+}
+.fullscreenButton img, .fullscreenButtonCl img{
+	width: 18px;
+	height: 18px;
+}
+iframe{
+	width: 100%;
+	height: 648px;
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+	display: block;
+}
+iframe.iframefull{
+	height: 100%;
+	-webkit-filter: grayscale(0);
+	        filter: grayscale(0);
+}
+.contactInf{
+	background: #484745;
+    padding: 3rem 3rem 2rem;
+}
+.contactInf-inner h1{
+	color: #958874;
+    text-align: left;
+    margin-bottom: 2.5rem;
+    font-size: 1.375rem;
+    font-family: "BodoniStd";
+    font-weight: 400;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.contact-form span, .first-line label, .second-line label, .third-line label, .fourth-line label, .fifth-line label{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+    color: #bebebe;
+    font-family: "Segoe UI Symbol";
+}
+.contact-form a{
+	color: #bebebe;
+}
+.paddLeft-1{
+	padding-left: 2rem;
+}
+.paddLeft-1 input{
+	border-radius: 0!important;
+}
+.first-line input{
+	background-color: #3a3937;
+	border: none;
+	width: 1.3em;
+    height: 1.3em;
+    border-radius: 0!important;
+}
+.inleft-cont{
+	margin-left: 1.875em;
+	margin-right: .6em;
+}
+.inright-cont{
+	margin-left: 1.5em;
+	margin-right: .6em;
+}
+.inleft-cont:checked, .inright-cont:checked{
+    background-color: #3a3937!important;
+}
+.inleft-cont:checked[type=checkbox], .inright-cont:checked[type=checkbox]{
+    background-image: url("../img/coche-input.png");
+}
+.forValidate{
+	width: 100%;
+}
+.for-merg{
+	margin-left: 14.8%;
+}
+.for-merg-sel{
+	margin-left: calc(14.8% - 15px);
+}
+.inputBack-em{
+	border: none;
+	width: 85.2%;
+    background-color: #3a3937;
+    margin-left: 14.8%;
+    color: #bebebe;
+    padding: 0.2rem 0;
+    border-radius: 0;
+}
+.inputBack-ph{
+	border: none;
+    width: 85.2%;
+    background-color: #3a3937;
+    margin-left: calc(14.8% - 1px);
+    color: #bebebe;
+    padding: 0.2rem 0;
+    border-radius: 0;
+}
+.inputBack-sb{
+	border: none;
+	width: calc(85.2% + 15px);
+    background-color: #3a3937;
+    margin-left: calc(14.8% - 15px);
+    color: #bebebe;
+    border-radius: 0;
+    background-image: url("../img/down-list-arrow.png");
+    background-size: auto;
+}
+.inputBack-576{
+    border: none;
+    background-color: #3a3937;
+    color: #bebebe;
+    padding: 0.2rem 0;
+    border-radius: 0;
+}
+.inputBack-sb-576{
+    border: none;
+    background-color: #3a3937;
+    color: #bebebe;
+    border-radius: 0;
+    background-image: url("../img/down-list-arrow.png");
+    background-size: auto;
+}
+.was-validated .inputBack-sb:invalid:not([multiple]):not([size]), .was-validated .inputBack-sb:invalid:not([multiple])[size="1"], .inputBack-sb.is-invalid:not([multiple]):not([size]), .inputBack-sb.is-invalid:not([multiple])[size="1"]{
+	background-image: url("../img/down-list-arrow.png");
+	background-size: auto;
+}
+.was-validated .inputBack-sb:valid:not([multiple]):not([size]), .was-validated .inputBack-sb:valid:not([multiple])[size="1"], .inputBack-sb.is-valid:not([multiple]):not([size]), .inputBack-sb.is-valid:not([multiple])[size="1"]{
+	background-image: url("../img/down-list-arrow.png");
+	background-size: auto;
+}
+.was-validated .form-check-input:valid ~ .forLabel, .form-check-input.is-valid ~ .forLabel{
+    color: #bebebe!important;
+}
+.inputBack-sb option{
+	background-color: #fff;
+}
+.fifth-line textarea{
+	border: none;
+    background-color: #3a3937;
+    color: #bebebe;
+    border-radius: 0;
+    background-size: auto;
+    resize: inherit;
+}
+.inputBack-em:focus, .inputBack-ph:focus, .inputBack-sb:focus, .inputBack-576:focus, .inputBack-sb-576:focus, .fifth-line textarea:focus{
+	background-color: #3a3937;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color:  #bebebe;
+}
+.buttSend-right{
+	font-family: "Segoe UI Symbol";
+	text-transform: uppercase;
+	text-decoration: underline;
+	background-color: transparent;
+	color: #bebebe;
+	text-underline-offset: 6px;
+}
+.buttSend-right:active, .buttSend-right:hover, .buttSend-right:focus{
+	background-color: transparent!important;
+    border-color: transparent!important;
+    color: #d0ccc6!important;
+}
+.was-validated .bordColl:invalid, .bordColl.is-invalid{
+	border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.contact-form input:-webkit-autofill,
+.contact-form input:-webkit-autofill:hover, 
+.contact-form input:-webkit-autofill:focus, 
+.contact-form input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #3a3937 inset!important;
+    -webkit-text-fill-color: #bebebe!important;
+}
+.inp-valid, .sel-valid{
+	margin-left: calc(14% + 52px);
+}
+.accueil-bloc-img img{
+	width: 100%;
+}
+@media(max-width: 1182px){
+	iframe{
+		height: 668px;
+	}
+}
+@media(max-width: 1063px){
+	.inright-cont{
+		margin-left: 11.875em;
+	}
+	iframe{
+		height: 691px;
+	}
+}
+@media(max-width: 991px){
+	.inright-cont{
+		margin-left: 1.5em;
+		margin-right: .6em;
+	}
+}
+@media(min-width: 576px){
+    .for-576{
+        display: none;
+    }
+}
+@media(max-width: 575px){
+    .inputBack-sb-576 option{
+        background-color: #fff;
+    }
+    .for-max{
+        display: none!important;
+    }
+    .for-merg{
+        margin-left: 0;
+    }
+}
+@media(max-width: 531px){
+	.inright-cont {
+	    margin-left: 11.875em;
+	}
+}
+@media(max-width: 409px){
+	 .first-line input, .first-line label{
+	 	display: none;
+	 }
+	 .for-410 input, .for-410 label{
+	 	display: block;
+	 }
+	 .for-410 .inleft-cont{
+	 	margin-left: 0.875em;
+   	 	margin-right: 0.6em;
+	 }
+	 .for-410 .inright-cont{
+	 	margin-left: 0.875em;
+	 }
+	 .for-410 label{
+	 	padding-top: 0.1875em;
+	 }
+	 .second-line{
+	 	margin-top: 1.5rem!important;
+	 }
+}
+@media(min-width: 410px){
+	.for-410{
+		display: none;
+	}
+}
+/* end of contact */
+.baseline h1{
+    font-family: "bodonistditalic";
+    font-size: 1.75rem;
+    color: #4d2a18;
+}
+@media(max-width: 632px){
+    .baseline h1{
+        padding: 0 20px;
+    }
+}

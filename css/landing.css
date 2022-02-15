@@ -1,0 +1,139 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.bgImg{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out 0s;
+    -o-transition: opacity 1s ease-in-out 0s;
+    transition: opacity 1s ease-in-out 0s;
+}
+.bgImgShow{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out 0s;
+    -o-transition: opacity 1s ease-in-out 0s;
+    transition: opacity 1s ease-in-out 0s;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.4);
+}
+.line{
+    background-color: #313233;
+}
+.lang-switch-ourwines {
+    pointer-events: all;
+    color: #313233!important;
+    padding-left: 0rem;
+    padding-right: 0.5rem;
+    -webkit-transition: .35s;
+    -o-transition: .35s;
+    transition: .35s;
+}
+.dropdown-menu.show{
+    margin-left: 0.3125rem;
+}
+.landing-page{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.logo-link{
+    position: relative;
+}
+.landing-page-logo{
+    position: absolute;
+    top: 10%;
+}
+.logo{
+    width: 100%;
+    opacity: .5;
+}
+.cont-wines{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.col-wines{
+    z-index: 1;
+    margin-top: 11%;
+}
+.wine{
+    width: 100%;
+}
+.baseline{
+    position: absolute;
+    bottom: 17%;
+}
+.baseline h1{
+    font-family: "bodonistditalic";
+    font-size: 1.75rem;
+    color: #4d2a18;
+}
+.footDiv{
+    position: absolute;
+    bottom: 4%;
+    text-align: center;
+    background-color: rgba(255,255,255,.5);
+    padding: 0.9375rem 1.4375rem 0.3125rem 1.375rem;
+}
+.footDiv h6{
+    font-family: "bodonistd";
+    text-transform: uppercase;
+    color: #4d2a18;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    font-size: .8rem;
+}
+.footDiv h6:hover{
+    color: #979191;
+}
+.footDiv a{
+    text-decoration: none;
+}
+/*@media(min-width: 1200px){
+    .landing-page-logo{
+        width: 30.333333%;
+    }
+}*/
+@media(max-width: 632px){
+    .baseline h1{
+        padding: 0 20px;
+    }
+}
