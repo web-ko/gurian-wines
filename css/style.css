@@ -1277,7 +1277,7 @@ ul{
         padding: 0 2px;
     }
     .fullscreen-content .full-logo{
-        width: 82%;
+        width: 40%;
         -webkit-transform: translateY(35px);
             -ms-transform: translateY(35px);
                 transform: translateY(35px);
