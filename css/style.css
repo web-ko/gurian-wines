@@ -18,7 +18,6 @@ ul{
     margin: 0;
     padding: 0;
 }
-
 /*navbutton*/
 .navbutton-container{
     position: fixed;
@@ -295,6 +294,9 @@ ul{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
+.page-logo.hide-2, .wine-logo.hide-3{
+    display: none;
 }
 .page-logo{
     margin-top: 100px;
