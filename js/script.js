@@ -8,6 +8,9 @@ $(document).ready(function(){
     $("#wrapper").click(function() {
     	$(".icon").toggleClass("close");
     	$(".opensearch-div").toggleClass("close-1");
+    	$(".landing-page-logo").toggleClass("hide-1");
+    	$(".page-logo").toggleClass("hide-2");
+    	$(".wine-logo").toggleClass("hide-3");
   	// end of burger/toggler-ს გახსნა-დაკეტვისას პიქტოგრამის ცვლილება
 });
 
