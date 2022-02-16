@@ -296,7 +296,7 @@ ul{
             justify-content: center;
 }
 .page-logo.hide-2, .wine-logo.hide-3{
-    display: none;
+    visibility: hidden;
 }
 .page-logo{
     margin-top: 100px;

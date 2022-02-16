@@ -78,7 +78,7 @@ ul{
     top: 10%;
 }
 .landing-page-logo.hide-1{
-    display: none;
+    visibility: hidden;
 }
 .logo{
     width: 100%;
