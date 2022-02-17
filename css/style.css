@@ -923,7 +923,6 @@ ul{
             justify-content: center;*/
     z-index: 1111;
     background-color: #313233;
-    /*padding-bottom: 24px;*/
 }
 .wine-bottle-text{
     text-align: center;
@@ -1154,9 +1153,9 @@ ul{
         width: 26%;
         margin-top: 14%;
     }
-    .wines {
+    /*.wines {
         max-width: 400px;
-    }
+    }*/
     .bottle-txt {
         --bs-gutter-x: 1.5rem;
     }
