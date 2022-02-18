@@ -2,7 +2,7 @@
 let bg1 = document.getElementById("bg1")
 let bg2 = document.getElementById("bg2")
 let bg3 = document.getElementById("bg3")
-let time = 2000
+let time = 3500
 
 
 let slider = function(){
