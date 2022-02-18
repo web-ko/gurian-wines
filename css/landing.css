@@ -83,10 +83,10 @@ ul{
 .logo{
     width: 100%;
     opacity: .1;
-    -webkit-animation: logo-anim 2s linear forwards;
-            animation: logo-anim 2s linear forwards;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    -webkit-animation: logo-anim .8s linear forwards;
+            animation: logo-anim .8s linear forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
 }
 @-webkit-keyframes logo-anim{
     from{
