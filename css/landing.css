@@ -42,20 +42,20 @@ ul{
     transition: opacity 1s ease-in-out 0s;
 }
 
-.overlay{
+/*.overlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgba(255,255,255,0.4);
-}
+}*/
 .line{
-    background-color: #313233;
+    background-color: #fff;
 }
 .lang-switch-ourwines {
     pointer-events: all;
-    color: #313233!important;
+    color: #fff!important;
     padding-left: 0rem;
     padding-right: 0.5rem;
     -webkit-transition: .35s;
@@ -82,7 +82,27 @@ ul{
 }
 .logo{
     width: 100%;
-    opacity: .5;
+    opacity: .1;
+    -webkit-animation: logo-anim 2s linear forwards;
+            animation: logo-anim 2s linear forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+@-webkit-keyframes logo-anim{
+    from{
+        opacity: .1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes logo-anim{
+    from{
+        opacity: .1;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .cont-wines{
     display: -webkit-box;
@@ -104,15 +124,15 @@ ul{
     bottom: 17%;
 }
 .baseline h1{
-    font-family: "bodonistditalic";
+    font-family: "bodonistd";
     font-size: 1.75rem;
-    color: #4d2a18;
+    color: #fff;
 }
 .footDiv{
     position: absolute;
     bottom: 4%;
     text-align: center;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,.6);
     padding: 0.9375rem 1.4375rem 0.3125rem 1.375rem;
 }
 .footDiv h6{

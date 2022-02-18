@@ -78,7 +78,7 @@ ul{
 }
 .logo{
     width: 100%;
-    opacity: .5;
+    /*opacity: .5;*/
 }
 .cont-wines{
     display: -webkit-box;
