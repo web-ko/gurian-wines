@@ -80,15 +80,141 @@ ul{
 .landing-page-logo.hide-1{
     visibility: hidden;
 }
+/* svg animation */
+.st0{
+    fill: #fff;
+}
+/*.svg-text{
+    opacity: 0;
+    animation: svg-anim 1s linear forwards;
+    animation-delay: .5s;
+}*/
+.st0-g{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+}
+.st0-u{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: .6s;
+            animation-delay: .6s;
+}
+.st0-r{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: .7s;
+            animation-delay: .7s;
+}
+.st0-i{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: .8s;
+            animation-delay: .8s;
+}
+.st0-a{
+    opacity: 0;
+    fill: #fff;
+   -webkit-animation: svg-anim  1s linear forwards;
+           animation: svg-anim  1s linear forwards;
+   -webkit-animation-delay: .9s;
+           animation-delay: .9s;
+}
+.st0-n{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.st0-w{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: 1.1s;
+            animation-delay: 1.1s;
+}
+.st0-wi{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+}
+.st0-wn{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+}
+.st0-e{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: 1.4s;
+            animation-delay: 1.4s;
+}
+.st0-s{
+    opacity: 0;
+    fill: #fff;
+    -webkit-animation: svg-anim 1s linear forwards;
+            animation: svg-anim 1s linear forwards;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+@-webkit-keyframes svg-anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes svg-anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/*.st0{
+    fill: url("#grad1");
+
+    animation: changeBg 1s linear;
+}
+@keyframes changeBg{
+      0%{
+        filter: hue-rotate(0deg);
+      }
+      100%{
+        filter: hue-rotate(360deg);
+      }
+}*/
 .logo{
     width: 100%;
-    opacity: .1;
+   /* opacity: .1;
     -webkit-animation: logo-anim .8s linear forwards;
             animation: logo-anim .8s linear forwards;
     -webkit-animation-delay: 3s;
-            animation-delay: 3s;
+            animation-delay: 3s;*/
 }
-@-webkit-keyframes logo-anim{
+/*@-webkit-keyframes logo-anim{
     from{
         opacity: .1;
     }
@@ -103,7 +229,8 @@ ul{
     to{
         opacity: 1;
     }
-}
+}*/
+/* end of svg animation */
 .cont-wines{
     display: -webkit-box;
     display: -ms-flexbox;
