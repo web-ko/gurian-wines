@@ -928,7 +928,7 @@ ul{
 .wine-bottle-text{
     text-align: center;
     text-decoration: none;
-    color: #ede9e1;
+    /*color: #ede9e1;*/
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
