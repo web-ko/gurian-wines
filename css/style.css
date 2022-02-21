@@ -928,10 +928,7 @@ ul{
 .wine-bottle-text{
     text-align: center;
     text-decoration: none;
-    /*color: #ede9e1;*/
-    /* background-color, border-color for tv browser */
-    background-color: #313233!important;
-    border-color: #313233!important;
+    color: #ede9e1;
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
