@@ -934,8 +934,8 @@ ul{
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }
-.wine-bottle-text div{
-    background-color: transparent;
+.wine-bottle-text{
+    background-color: red;
 }
 .amiral{
     position: relative;
