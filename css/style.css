@@ -929,6 +929,8 @@ ul{
     text-align: center;
     text-decoration: none;
     color: #ede9e1;
+    /* background-color for tv browser */
+    background-color: #313233!important;
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
@@ -975,9 +977,6 @@ ul{
 }
 .wine-bottle-text:hover .down-arrow{
     opacity: .5;
-}
-.bottle-col{
-    background-color: transparent!important;
 }
 .bottle-col a:hover{
     color: rgba(237, 233, 225, .5);
