@@ -1159,9 +1159,9 @@ ul{
     /*.wines {
         max-width: 400px;
     }*/
-    .bottle-txt {
+    /*.bottle-txt {
         --bs-gutter-x: 1.5rem;
-    }
+    }*/
 }
 @media(max-width: 900px){
     .text {
@@ -1247,6 +1247,9 @@ ul{
     .wine-bottles{
         max-width: 300px;
         margin-top: 0.0625rem;
+    }
+    .bottle-txt {
+        --bs-gutter-x: 1.5rem;
     }
     .wine-text-bottle{
         max-width: 300px;
