@@ -928,13 +928,19 @@ ul{
 .wine-bottle-text{
     text-align: center;
     text-decoration: none;
-    color: #ede9e1;
-    /* background-color for tv browser */
+    /*color: #ede9e1;*/
+    /* background-color, border-color for tv browser */
     background-color: #313233!important;
+    border-color: #313233!important;
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+}
+.wine-bottle-text div{
+    /* background-color, border-color for tv browser */
+    background-color: #313233!important;
+    border-color: #313233!important;
 }
 .amiral{
     position: relative;
