@@ -928,14 +928,11 @@ ul{
 .wine-bottle-text{
     text-align: center;
     text-decoration: none;
-    /*color: #ede9e1;*/
+    color: #ede9e1;
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-}
-.wine-bottle-text div{
-    background-color: transparent!important;
 }
 .amiral{
     position: relative;
@@ -979,9 +976,9 @@ ul{
 .wine-bottle-text:hover .down-arrow{
     opacity: .5;
 }
-/*.bottle-col{
-    max-width: 800px;
-}*/
+.bottle-col{
+    background-color: transparent!important;
+}
 .bottle-col a:hover{
     color: rgba(237, 233, 225, .5);
 }
