@@ -928,11 +928,14 @@ ul{
 .wine-bottle-text{
     text-align: center;
     text-decoration: none;
-    /*color: #ede9e1;*/
+    color: #ede9e1;
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
+}
+.wine-bottle-text div{
+    background-color: transparent;
 }
 .amiral{
     position: relative;
@@ -982,7 +985,7 @@ ul{
 .bottle-col a:hover{
     color: rgba(237, 233, 225, .5);
 }
-.wine-bottle-text a{
+.wine-bottle-text-1 a{
     text-decoration: none;
     color: #ede9e1;
 }
