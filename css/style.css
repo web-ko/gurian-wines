@@ -887,6 +887,7 @@ ul{
 }
 .bottle, .bottle-1, .bottle-2{
     width: 100%;
+    height: 100%;
 }
 .wine-present{
     background-color: #313233;
