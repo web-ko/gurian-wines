@@ -929,7 +929,7 @@ ul{
     text-align: center;
     text-decoration: none;
     /*color: #ede9e1;*/
-    background-color: red!important;
+    background-color: transparent!important;
     cursor: pointer;
     -webkit-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
