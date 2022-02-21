@@ -1037,7 +1037,6 @@ ul{
     padding: 0.2rem 0.75rem;
     font-size: 1rem;
     color: #d0ccc6;
-    dominant-baseline: middle!important;
 }
 .btncheck{
     display: inline-block;
