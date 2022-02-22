@@ -41,7 +41,6 @@ ul{
     -o-transition: opacity 1s ease-in-out 0s;
     transition: opacity 1s ease-in-out 0s;
 }
-
 /*.overlay{
     position: absolute;
     top: 0;
@@ -62,14 +61,6 @@ ul{
     -o-transition: .35s;
     transition: .35s;
 }
-.dropdown-menu.show{
-    margin-left: 0.3125rem!important;
-}
-.dropdown-menu{
-    margin-left: 0.3125rem!important;
-}
-
-
 .landing-page{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
