@@ -63,8 +63,13 @@ ul{
     transition: .35s;
 }
 .dropdown-menu.show{
-    margin-left: 0.3125rem;
+    margin-left: 0.3125rem!important;
 }
+.dropdown-menu{
+    margin-left: 0.3125rem!important;
+}
+
+
 .landing-page{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
