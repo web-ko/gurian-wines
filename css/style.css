@@ -1026,9 +1026,9 @@ ul{
     font-weight: 400;
     font-family: "BodoniStdBold";
     line-height: 1.5;
-    text-align: center;
+    text-align: center!important;
     text-decoration: none;
-    vertical-align: middle;
+    vertical-align: middle!important;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
