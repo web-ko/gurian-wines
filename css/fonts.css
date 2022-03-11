@@ -30,30 +30,71 @@
 
 @font-face {
     font-family: 'bodonistditalic';
-    src: url('../webfonts/bodonistditalic.eot');
-    src: url('../webfonts/bodonistditalic.eot') format('embedded-opentype'),
-         url('../webfonts/bodonistditalic.woff2') format('woff2'),
-         url('../webfonts/bodonistditalic.woff') format('woff'),
-         url('../webfonts/bodonistditalic.ttf') format('truetype'),
-         url('../webfonts/bodonistditalic.svg#bodonistditalic') format('svg');
+    src: url('../fonts/bodonistditalic.eot');
+    src: url('../fonts/bodonistditalic.eot') format('embedded-opentype'),
+         url('../fonts/bodonistditalic.woff2') format('woff2'),
+         url('../fonts/bodonistditalic.woff') format('woff'),
+         url('../fonts/bodonistditalic.ttf') format('truetype'),
+         url('../fonts/bodonistditalic.svg#bodonistditalic') format('svg');
 }
 
 @font-face {
     font-family: 'BodoniStd';
-    src: url('../webfonts/BodoniStd.eot');
-    src: url('../webfonts/BodoniStd.eot') format('embedded-opentype'),
-         url('../webfonts/BodoniStd.woff2') format('woff2'),
-         url('../webfonts/BodoniStd.woff') format('woff'),
-         url('../webfonts/BodoniStd.ttf') format('truetype'),
-         url('../webfonts/BodoniStd.svg#BodoniStd') format('svg');
+    src: url('../fonts/BodoniStd.eot');
+    src: url('../fonts/BodoniStd.eot') format('embedded-opentype'),
+         url('../fonts/BodoniStd.woff2') format('woff2'),
+         url('../fonts/BodoniStd.woff') format('woff'),
+         url('../fonts/BodoniStd.ttf') format('truetype'),
+         url('../fonts/BodoniStd.svg#BodoniStd') format('svg');
 }
 
 @font-face {
     font-family: 'BodoniStdBold';
-    src: url('../webfonts/BodoniStdBold.eot');
-    src: url('../webfonts/BodoniStdBold.eot') format('embedded-opentype'),
-         url('../webfonts/BodoniStdBold.woff2') format('woff2'),
-         url('../webfonts/BodoniStdBold.woff') format('woff'),
-         url('../webfonts/BodoniStdBold.ttf') format('truetype'),
-         url('../webfonts/BodoniStdBold.svg#BodoniStdBold') format('svg');
+    src: url('../fonts/BodoniStdBold.eot');
+    src: url('../fonts/BodoniStdBold.eot') format('embedded-opentype'),
+         url('../fonts/BodoniStdBold.woff2') format('woff2'),
+         url('../fonts/BodoniStdBold.woff') format('woff'),
+         url('../fonts/BodoniStdBold.ttf') format('truetype'),
+         url('../fonts/BodoniStdBold.svg#BodoniStdBold') format('svg');
+}
+
+
+@font-face {
+    font-family: "FiraGO";
+    src: url("../fonts/FiraGO-Regular.woff2"), url("../fonts/FiraGO-regular.woff"), url("../fonts/FiraGO-regular.eot");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGO";
+    src: url("../fonts/FiraGO-SemiBold.woff2"), url("../fonts/FiraGO-SemiBold.woff"), url("../fonts/FiraGO-SemiBold.eot");
+    font-weight: 600;
+    font-display: swap;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "FiraGO";
+    src: url("../fonts/FiraGO-Bold.woff2"), url("../fonts/FiraGO-Bold.woff"), url("../fonts/FiraGO-Bold.eot");
+    font-weight: 700;
+    font-display: swap;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "FiraGO";
+    src: url("../fonts/FiraGO-Light.woff2"), url("../fonts/FiraGO-Light.woff"), url("../fonts/FiraGO-Light.eot");
+    font-weight: 300;
+    font-display: swap;
+    font-style: thin;
+}
+
+@font-face {
+    font-family: "FiraGO";
+    src: url("../fonts/FiraGO-Medium.woff2"), url("../fonts/FiraGO-Medium.woff"), url("../fonts/FiraGO-Medium.eot");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
 }
